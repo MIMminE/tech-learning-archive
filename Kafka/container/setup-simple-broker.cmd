@@ -1,0 +1,1 @@
+docker-compose -f docker-compose-simple-broker.yml up -d
