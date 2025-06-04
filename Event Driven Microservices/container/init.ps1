@@ -1,0 +1,1 @@
+docker-compose -f .\commom.yml -f .\kafka_cluster.yml up -d

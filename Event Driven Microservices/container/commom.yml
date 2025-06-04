@@ -1,0 +1,5 @@
+version: '3.7'
+
+networks:
+  kafka-event-msa-net:
+    driver: bridge
