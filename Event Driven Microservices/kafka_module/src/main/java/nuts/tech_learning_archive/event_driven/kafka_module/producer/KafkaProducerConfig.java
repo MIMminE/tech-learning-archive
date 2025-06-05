@@ -18,6 +18,7 @@ public class KafkaProducerConfig {
         props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         props.put("value.serializer", "io.confluent.kafka.serializers.KafkaAvroSerializer");
         props.put("schema.registry.url", "http://localhost:8081");
+        props.put("auto.register.schemas", "false");
         props.put("retries", 2);
         return new KafkaProducer<>(props);
     }

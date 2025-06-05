@@ -19,6 +19,6 @@ public class KafkaProducerRunner implements CommandLineRunner {
     public void run(String... args) throws Exception {
         kafkaAdminClient.createTopic("testTopic",1, (short) 1);
         StreamAvroModel avroModel = new StreamAvroModel(1L, 2L, "hello", 12L);
-        avroModelKafkaProducer.send(new ProducerRecord<>("testTopic", avroModel));
+        avroModelKafkaProducer.send(new ProducerRecord<>("dsdsds1", avroModel));
     }
 }

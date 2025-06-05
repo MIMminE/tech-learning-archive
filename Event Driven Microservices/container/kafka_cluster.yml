@@ -6,9 +6,7 @@ services:
     ports:
       - "2181:2181"
     environment:
-      ZOOKEEPER_SERVER_ID: 1
       ZOOKEEPER_CLIENT_PORT: 2181
-      ZOOKEEPER_SERVERS: zookeeper:2888
     networks:
       - ${GLOBAL_NETWORK:-kafka}
 
