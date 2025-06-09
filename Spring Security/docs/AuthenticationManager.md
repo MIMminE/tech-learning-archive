@@ -48,7 +48,7 @@ public class AuthenticationManager {
 public class AuthenticationManager {
     
     // 스프링 빈으로 매니저를 등록할 경우 SecurityFilterChain 에 자동으로 등록된다.
-    @Beanm
+    @Bean
     AuthenticationManager customAuthenticationManager(HttpSecurity http) throws Exception {
         AuthenticationManagerBuilder builder = http.getSharedObject(AuthenticationManagerBuilder.class);
 
@@ -62,4 +62,3 @@ public class AuthenticationManager {
 ```
 인증 매니저 빈을 직접 등록하는 경우, 스프링 시큐리티 자동 설정에 의해 등록되는 기본 인증 필터들은 해당 빈을 스프링 컨테이너를 통해 자동으로 참조할 수 있다.
 하지만 커스텀으로 필터를 추가하는 경우에는 자동 참조가 불가능하며 수동으로 주입시켜주어야 한다는 것을 주의해야 한다.
-
