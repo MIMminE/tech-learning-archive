@@ -65,6 +65,5 @@ public class SecurityConfig {
     </form>
 </body>
 </html>
-
 ```
 주의할점은 form 태그의 action url 을 서버 설정(loginProcessingUrl)과 일치해야한다.
