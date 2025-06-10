@@ -21,4 +21,5 @@ jobs:
           distribution: 'temurin'
 
       - name: Run tests
-        run: ./Spring Security/spring_security_playground/gradlew test
+        run: ./gradlew test
+        working-directory: ./Spring Security/spring_security_playground
