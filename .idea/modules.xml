@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kafka_module.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kafka_module.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mock_stream_generator.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mock_stream_generator.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_security_playground.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_security_playground.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tech-learning-archive.iml" filepath="$PROJECT_DIR$/.idea/tech-learning-archive.iml" />
+    </modules>
+  </component>
+</project>

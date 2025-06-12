@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Event Driven Microservices/config_server" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Event Driven Microservices/config_server" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Event Driven Microservices/elastic_module" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Event Driven Microservices/elastic_module" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Event Driven Microservices/kafka_module" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Event Driven Microservices/kafka_module" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Event Driven Microservices/kafka_to_elastic_service" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Event Driven Microservices/kafka_to_elastic_service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Event Driven Microservices/mock_stream_generator" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Event Driven Microservices/mock_stream_generator" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Spring OAuth2/spring_oauth2_playground" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Spring OAuth2/spring_oauth2_playground" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Spring Security/spring_security_playground" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Spring Security/spring_security_playground" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
