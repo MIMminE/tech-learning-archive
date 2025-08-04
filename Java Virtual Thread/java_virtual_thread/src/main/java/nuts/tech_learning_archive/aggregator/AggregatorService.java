@@ -15,7 +15,7 @@ public class AggregatorService {
         this.executor = executor;
     }
 
-    public ProductDto getProductDto(int id) throws ExecutionException, InterruptedException {
+    public ProductDto getProductDto(int id) {
 //        var product = executor.submit(() -> ExternalServiceClient.getProduct(id));
         var product = CompletableFuture.supplyAsync(() -> ExternalServiceClient.getProduct(id), executor)
                 .exceptionally(ex -> "product-not-found");

@@ -31,6 +31,7 @@ public class SimpleCompletableFuture {
 //            log.info("virtual end");
 //            cf.complete("hi");
 //        });
+        cf.complete("hello");
         log.info("method ends");
         return cf;
     }
